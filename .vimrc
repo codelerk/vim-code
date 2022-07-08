@@ -35,3 +35,9 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
+
+let g:neovide_cursor_vfx_mode="railgun"
+let g:neovide_refresh_rate=60
+let g:neovide_transparency=0.8
+let g:neovide_fullscreen=v:true
+let g:neovide_cursor_trail_length=0.8
